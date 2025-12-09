@@ -1,0 +1,106 @@
+# --------------------------
+# Python
+# --------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+.eggs/
+*.manifest
+*.spec
+
+# Virtual Environments
+venv/
+.env/
+.env.*/
+.venv/
+.venv.*/
+env/
+env.*/
+ENV/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+pytestdebug.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# mypy / type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# VS Code (optional)
+.vscode/
+
+# --------------------------
+# PyCharm / IntelliJ IDEA
+# --------------------------
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf/
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+# Gradle / Maven (if present)
+.idea/**/gradle.xml
+.idea/**/libraries/
+
+# Caches
+.idea/**/mongoSettings.xml
+.idea/**/dataSources.xml
+.idea/**/dataSources/
+.idea/**/httpRequests/
+.idea/**/caches/
+
+# File-based project format
+*.iws
+
+# JetBrains template files
+*.iml
+.idea/
+
+# --------------------------
+# OS-specific
+# --------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
